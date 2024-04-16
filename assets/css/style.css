@@ -703,11 +703,11 @@ section {
   position: relative;
 }
 .card0 {
-  background: url("../img/hh.jpeg") center center no-repeat;
+  background: url("../img/filler\ 1.jpeg") center center no-repeat;
   background-size: 300px;
 }
 .card0:hover {
-  background: url("../img/hh.jpeg") left center no-repeat;
+  background: url("../img/filler\ 1.jpeg") left center no-repeat;
   background-size: 600px;
 }
 .card0:hover h2 {
@@ -717,11 +717,11 @@ section {
   opacity: 1;
 }
 .card1 {
-  background: url("../img/hushheaven.jpeg") center center no-repeat;
+  background: url("../img/filler\ 2.webp") center center no-repeat;
   background-size: 300px;
 }
 .card1:hover {
-  background: url("../img/hushheaven.jpeg") left center no-repeat;
+  background: url("../img/filler\ 2.webp") left center no-repeat;
   background-size: 600px;
 }
 .card1:hover h2 {
@@ -731,17 +731,62 @@ section {
   opacity: 1;
 }
 .card2 {
-  background: url("../img/hushh.jpeg") center center no-repeat;
+  background: url("../img/filler\ 3.webp") center center no-repeat;
   background-size: 300px;
 }
 .card2:hover {
-  background: url("../img/hushh.jpeg") left center no-repeat;
+  background: url("../img/filler\ 3.webp") left center no-repeat;
   background-size: 600px;
 }
 .card2:hover h2 {
   opacity: 1;
 }
 .card2:hover .fa {
+  opacity: 1;
+}
+
+.card3 {
+  background: url("../img/filler\ 4.webp") center center no-repeat;
+  background-size: 300px;
+}
+.card3:hover {
+  background: url("../img/filler\ 4.webp") left center no-repeat;
+  background-size: 600px;
+}
+.card3:hover h2 {
+  opacity: 1;
+}
+.card3:hover .fa {
+  opacity: 1;
+}
+
+.card4 {
+  background: url("../img/filler\ 5.webp") center center no-repeat;
+  background-size: 300px;
+}
+.card4:hover {
+  background: url("../img/filler\ 5.webp") left center no-repeat;
+  background-size: 600px;
+}
+.card4:hover h2 {
+  opacity: 1;
+}
+.card4:hover .fa {
+  opacity: 1;
+}
+
+.card5 {
+  background: url("../img/filler\ 6.webp") center center no-repeat;
+  background-size: 300px;
+}
+.card5:hover {
+  background: url("../img/filler\ 6.webp") left center no-repeat;
+  background-size: 600px;
+}
+.card5:hover h2 {
+  opacity: 1;
+}
+.card5:hover .fa {
   opacity: 1;
 }
 h2 {
@@ -881,7 +926,8 @@ h2 {
 .services .icon-box:hover .title a {
   color: #ffb727;
 }
-
+.why, h1{font-family: "Satisfy", serif;
+}
 .testimonials {
   padding: 80px 0;
   background: url("../img/angels.jpeg") no-repeat;
@@ -897,7 +943,7 @@ h2 {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(14, 16, 17, 0.7);
+  background: rgba(148, 148, 148, 0);
 }
 
 .testimonials .section-header {
@@ -917,7 +963,7 @@ h2 {
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
+  border: 6px solid rgb(0, 0, 0);
   margin: 0 auto;
 }
 
@@ -1265,5 +1311,41 @@ color: #ffffff;}
 
 #footer .credits {
   font-size: 13px;
+}
+
+.side-image
+{height: 345px;
+width:345px;}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures that padding and border are included in the element's total width and height */
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-style: italic;
 }
 

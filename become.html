@@ -33,7 +33,7 @@
     <header id="header" class="fixed-top d-flex justify-content-center align-items-center header-transparent">
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="angels.html">Angels</a></li>
           <li><a class="nav-link scrollto" href="#services">Our Cilents</a></li>
           <li><a class="nav-link scrollto " href="become.html">Becoming an Angel</a></li>
@@ -50,96 +50,67 @@
       <h2>Toronto's Piece of Heaven</h2>
     </div>
   </section>
-    <section id="portfolio-details" class="portfolio-details">
+    <section id="register-details" class="register-details">
       <div class="container">
 
         <div class="row gy-4">
-
+          <h3>Becoming One of Our Angels</h3>
+          <p> We aim to present you as an upscale, refined escort companion. 
+            Our mission is to guide you through every aspect of this profession, 
+            empowering you to achieve financial independence. Drawing 
+            from our own experiences as former entertainers, we understand what it takes to succeed. 
+            Leveraging our years of expertise, we promise to ensure that your time with us brings fulfillment, prosperity, and a luxurious lifestyle.
+             We value the input of all our future companions, striving to create an agency characterized by inclusivity, trustworthiness, integrity, and transparency. 
+             Our vision is to revolutionize this industry, empowering every companion we work with to embrace their potential and seize opportunities. At Hush Heaven, you're not just another escort; you're embraced as part of our supportive, family-like community.</p>
+            
           <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
+            <div class="register-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
-
-                <img src="img/" alt="woman">
-
+                <div class="side-image">
+                <img src="assets/img/filler 1.webp" alt="woman">
               </div>
-              <div class="swiper-pagination"></div>
-            </div>
+              </div>
           </div>
-
+        <div>
+          <h3> Our Selection Process</h3>
+              <p>Hush Heaven seeks elite companions aged 19 and above who uphold high standards of professionalism, appearance, and pride in their work. Emphasizing quality over quantity, our agency values the ability to attract discerning clients through both physical allure and deeper, meaningful connections. If you possess a fresh, outgoing demeanor, coupled with sensuality and a positive outlook, Hush Heaven offers the ideal opportunity to enhance your life in a supportive, non-invasive environment, with a thorough yet respectful screening process for both clients and companions.Hush Heaven seeks elite companions aged 19 and above who uphold high standards of professionalism, appearance, and pride in their work. Emphasizing quality over quantity, our agency values the ability to attract discerning clients through both physical allure and deeper, meaningful connections. If you possess a fresh, outgoing demeanor, coupled with sensuality and a positive outlook, Hush Heaven offers the ideal opportunity to enhance your life in a supportive, non-invasive environment, with a thorough yet respectful screening process for both clients and companions."</p>
+            </div>
+              <div class="col-lg-8">
+                <div class="register-details-slider swiper">
+                  <div class="swiper-wrapper align-items-center">
+                    <div class="side-image">
+                    <img src="assets/img/filler 1.jpeg" alt="woman">
+                  </div>
+                  </div>
+              </div>
           <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Angels</h3>
-              <form class="needs-validation" novalidate>
-                <div class="form-row">
-                  <div class="col-md-4 mb-3">
-                    <label for="validationCustom01">First name</label>
-                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
-                    <div class="valid-feedback">
-                      Looks good!
+            <div class="register-info">
+       
+         
+              <div class="col-lg-6">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                     </div>
                   </div>
-                  <div class="col-md-4 mb-3">
-                    <label for="validationCustom02">Last name</label>
-                    <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
-                    <div class="valid-feedback">
-                      Looks good!
-                    </div>
+                  <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
                   </div>
-                  <div class="col-md-4 mb-3">
-                    <label for="validationCustomUsername">Username</label>
-                    <div class="input-group">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroupPrepend">@</span>
-                      </div>
-                      <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
-                      <div class="invalid-feedback">
-                        Please choose a username.
-                      </div>
-                    </div>
+                  <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
                   </div>
-                </div>
-                <div class="form-row">
-                  <div class="col-md-6 mb-3">
-                    <label for="validationCustom03">City</label>
-                    <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
-                    <div class="invalid-feedback">
-                      Please provide a valid city.
-                    </div>
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
                   </div>
-                  <div class="col-md-3 mb-3">
-                    <label for="validationCustom04">State</label>
-                    <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
-                    <div class="invalid-feedback">
-                      Please provide a valid state.
-                    </div>
-                  </div>
-                  <div class="col-md-3 mb-3">
-                    <label for="validationCustom05">Zip</label>
-                    <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
-                    <div class="invalid-feedback">
-                      Please provide a valid zip.
-                    </div>
-                  </div>
-                </div>
-                <button class="btn btn-primary" type="submit">Submit form</button>
-              </form>
-              
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
-          </div>
-
-        </div>
+                  <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+              </div>
 
       </div>
     </section>
@@ -160,11 +131,11 @@
         &copy; Copyright <strong><span>Hush Heaven</span></strong>. All Rights Reserved
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
+
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -173,7 +144,7 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
+
   <script src="assets/js/main.js"></script>
 
 </body>
