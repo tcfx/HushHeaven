@@ -2,6 +2,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+    min-width: 100%;
+    width: 100%;
 }
 
 
@@ -717,11 +719,11 @@ section {
   opacity: 1;
 }
 .card1 {
-  background: url("../img/filler\ 2.webp") center center no-repeat;
+  background: url("../img/filler\ 2.jpeg") center center no-repeat;
   background-size: 300px;
 }
 .card1:hover {
-  background: url("../img/filler\ 2.webp") left center no-repeat;
+  background: url("../img/filler\ 2.jpeg") left center no-repeat;
   background-size: 600px;
 }
 .card1:hover h2 {
@@ -731,11 +733,11 @@ section {
   opacity: 1;
 }
 .card2 {
-  background: url("../img/filler\ 3.webp") center center no-repeat;
+  background: url("../img/filler\ 3.jpeg") center center no-repeat;
   background-size: 300px;
 }
 .card2:hover {
-  background: url("../img/filler\ 3.webp") left center no-repeat;
+  background: url("../img/filler\ 3.jpeg") left center no-repeat;
   background-size: 600px;
 }
 .card2:hover h2 {
@@ -746,11 +748,11 @@ section {
 }
 
 .card3 {
-  background: url("../img/filler\ 4.webp") center center no-repeat;
+  background: url("../img/filler\ 4.jpeg") center center no-repeat;
   background-size: 300px;
 }
 .card3:hover {
-  background: url("../img/filler\ 4.webp") left center no-repeat;
+  background: url("../img/filler\ 4.jpeg") left center no-repeat;
   background-size: 600px;
 }
 .card3:hover h2 {
@@ -761,11 +763,11 @@ section {
 }
 
 .card4 {
-  background: url("../img/filler\ 5.webp") center center no-repeat;
+  background: url("../img/filler\ 5.jpeg") center center no-repeat;
   background-size: 300px;
 }
 .card4:hover {
-  background: url("../img/filler\ 5.webp") left center no-repeat;
+  background: url("../img/filler\ 5.jpeg") left center no-repeat;
   background-size: 600px;
 }
 .card4:hover h2 {
@@ -776,11 +778,11 @@ section {
 }
 
 .card5 {
-  background: url("../img/filler\ 6.webp") center center no-repeat;
+  background: url("../img/filler\ 6.jpeg") center center no-repeat;
   background-size: 300px;
 }
 .card5:hover {
-  background: url("../img/filler\ 6.webp") left center no-repeat;
+  background: url("../img/filler\ 6.jpeg") left center no-repeat;
   background-size: 600px;
 }
 .card5:hover h2 {
@@ -1315,9 +1317,10 @@ color: #ffffff;}
 
 .side-image
 {height: 345px;
-width:345px;}
+width:345px;
+float: right;}
 
-form {
+/*form {
   width: 300px;
   margin: 0 auto;
 }
@@ -1328,10 +1331,9 @@ input[type="text"], textarea {
   margin: 5px 0 20px 0;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box; /* Ensures that padding and border are included in the element's total width and height */
-}
+  box-sizing: border-box; /* Ensures that padding and border are included in the element's total width and height} */
 
-input[type="submit"] {
+/*input[type="submit"] {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
