@@ -397,6 +397,7 @@ h6 {
   align-items: center;
   flex-direction: column;
   padding: 0 15px;
+  width: 100%;
 }
 
 #hero h1 {
@@ -1249,6 +1250,7 @@ color: #ffffff;}
   text-align: center;
   padding: 80px 0;
   position: relative;
+  width: 100%s;
 }
 
 #footer::before {
