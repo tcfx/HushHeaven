@@ -459,9 +459,6 @@ h6 {
 .girls {
   padding: 0;
   margin: 0;
-  display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
 }
 * {
   padding: 0;
