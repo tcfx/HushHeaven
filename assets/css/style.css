@@ -459,6 +459,9 @@ h6 {
 .girls {
   padding: 0;
   margin: 0;
+  display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
 }
 * {
   padding: 0;
@@ -695,15 +698,20 @@ section {
   height: 379px;
   width: 300px;
   background: #808080;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: background 0.8s;
   overflow: hidden;
   background: #000;
-  box-shadow: 0 70px 63px -60px #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  width: calc(50% - 20px); /* Two cards per row, with margin */
+  margin: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  width: calc(100% - 20px)
 }
 .card0 {
   background: url("../img/filler\ 1.jpeg") center center no-repeat;
@@ -976,7 +984,7 @@ h2 {
 .testimonials , h1 {text-align: center;
 color: #ffffff;}
 
-@media (min-width: 992px) {
+@media (min-width: 600px) {
   .testimonials .testimonial-item p {
     width: 80%;
   }
