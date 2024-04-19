@@ -698,19 +698,21 @@ section {
   height: 379px;
   width: 300px;
   background: #808080;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: background 0.8s;
   overflow: hidden;
   background: #000;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 70px 63px -60px #000;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   width: calc(50% - 20px); /* Two cards per row, with margin */
   margin: 10px;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .card0 {
   background: url("../img/filler\ 1.jpeg") center center no-repeat;
