@@ -983,7 +983,7 @@ h2 {
 .testimonials , h1 {text-align: center;
 color: #ffffff;}
 
-@media (min-width: 600px) {
+@media (min-width: 250px) {
   .testimonials .testimonial-item p {
     width: 80%;
   }
