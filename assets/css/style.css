@@ -308,18 +308,6 @@ h6 {
   right: 0;
 }
 
-#angel .angel-container {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 15px;
-}
 
 #angel h1 {
   margin: 0 0 10px 0;
