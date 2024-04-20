@@ -787,7 +787,7 @@ h2 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 20px;
-  opacity: 0;
+  opacity: .5;
   transition: opacity 1s;
 }
 .fa {
