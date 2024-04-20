@@ -1,6 +1,6 @@
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #444444;
     min-width: 100%;
     width: 100%;
@@ -677,6 +677,8 @@ section {
   align-items: center;
   margin: 0 auto;
   flex-wrap: wrap;
+  height: auto;
+  max-height: none;
 }
  .border {
   height: 369px;
@@ -702,7 +704,17 @@ section {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-top: 12px;
+  margin: 13px;
+  
 }
+.card:hover h2 {
+  opacity: 1;
+}
+.card:hover .fa {
+  opacity: 1;
+}
+
 .card0 {
   background: url("../img/filler\ 1.jpeg") center center no-repeat;
   background-size: 300px;
@@ -711,12 +723,7 @@ section {
   background: url("../img/filler\ 1.jpeg") left center no-repeat;
   background-size: 600px;
 }
-.card0:hover h2 {
-  opacity: 1;
-}
-.card0:hover .fa {
-  opacity: 1;
-}
+
 .card1 {
   background: url("../img/filler\ 2.jpeg") center center no-repeat;
   background-size: 300px;
@@ -725,26 +732,17 @@ section {
   background: url("../img/filler\ 2.jpeg") left center no-repeat;
   background-size: 600px;
 }
-.card1:hover h2 {
-  opacity: 1;
-}
-.card1:hover .fa {
-  opacity: 1;
-}
+
 .card2 {
   background: url("../img/filler\ 3.jpeg") center center no-repeat;
   background-size: 300px;
+
 }
 .card2:hover {
   background: url("../img/filler\ 3.jpeg") left center no-repeat;
   background-size: 600px;
 }
-.card2:hover h2 {
-  opacity: 1;
-}
-.card2:hover .fa {
-  opacity: 1;
-}
+
 
 .card3 {
   background: url("../img/filler\ 4.jpeg") center center no-repeat;
@@ -754,12 +752,7 @@ section {
   background: url("../img/filler\ 4.jpeg") left center no-repeat;
   background-size: 600px;
 }
-.card3:hover h2 {
-  opacity: 1;
-}
-.card3:hover .fa {
-  opacity: 1;
-}
+
 
 .card4 {
   background: url("../img/filler\ 5.jpeg") center center no-repeat;
@@ -769,12 +762,7 @@ section {
   background: url("../img/filler\ 5.jpeg") left center no-repeat;
   background-size: 600px;
 }
-.card4:hover h2 {
-  opacity: 1;
-}
-.card4:hover .fa {
-  opacity: 1;
-}
+
 
 .card5 {
   background: url("../img/filler\ 6.jpeg") center center no-repeat;
@@ -784,12 +772,17 @@ section {
   background: url("../img/filler\ 6.jpeg") left center no-repeat;
   background-size: 600px;
 }
-.card5:hover h2 {
-  opacity: 1;
+
+
+.card6 {
+  background: url("../img/filler\ 6.jpeg") center center no-repeat;
+  background-size: 300px;
 }
-.card5:hover .fa {
-  opacity: 1;
+.card6:hover {
+  background: url("../img/filler\ 6.jpeg") left center no-repeat;
+  background-size: 600px;
 }
+
 h2 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
@@ -800,12 +793,20 @@ h2 {
 .fa {
   opacity: 0;
   transition: opacity 1s;
+  font-size: 12px;
+  color: white;
+  margin: 2px;
+  padding-left: 12px;
 }
 
-/*@media screen {
-  .card0,.card1,.card2,.card3,.card4,.card5{max-width: 600px;width: calc(100% - 20px)}
-  
-}*/
+
+@media only screen and (max-width: 1024px) {
+  .girls{
+   width: auto;
+   max-width: calc(100vw -(var(--bs-gutter-x) * .5));
+   min-width: 0;
+  }
+}
 
 
 
@@ -971,6 +972,7 @@ color: #ffffff;}
     width: 80%;
   }
 }
+
 
 
 
@@ -1312,6 +1314,19 @@ color: #ffffff;}
 width:345px;
 float: right;}
 
+.resigter-image2
+{background: url(".../img/filler\ 1.jpeg") center center no-repeat;
+
+}
+
+.resigter-image1 {background:url(".../img/filler\ 1.jpeg"); 
+  
+
+}
+
+.rates {display: flex;
+  border: 1px solid gray;
+}
 /*form {
   width: 300px;
   margin: 0 auto;
