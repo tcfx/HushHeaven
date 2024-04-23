@@ -13,8 +13,9 @@
   <style>
  body   {
  
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
   background: url("assets/img/footer.jpeg");
   background-position: center;
   background-repeat: no-repeat;
@@ -37,13 +38,23 @@ html.sr .load-hidden {
 .btn{border-radius: 0; margin-right: 20px;
     border: solid 4px white;
     position: relative;}
+
+    .disclaimer_text{
+      top: 50% !important;
+      transform: translateY(-50%);
+      position: absolute !important;
+      width: 100%;
+      left: 0;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
    </style>
 
 </head>
 <body class="disclaimer">
     <main class="px-3">
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-none">
-        <h1>Hush Heaven</h1>
+        <div class="position-relative disclaimer_text overflow-hidden p-3 p-md-5 m-md-3 text-center bg-none">
+          <h1>Hush Heaven</h1>
       <p> You must be 19+</p>
       <p>Are you over 19 years of age?</p>
       <p class="lead">
