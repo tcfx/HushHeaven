@@ -1,7 +1,7 @@
 
 body {
-  font-family: "Montserrat", sans-serif;
-  color: #444444;
+    font-family: "Montserrat", sans-serif;
+    color: #444444;
     min-width: 100%;
     width: 100%;
 }
@@ -17,7 +17,6 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -309,6 +308,9 @@ p {
   right: 0;
 }
 
+#testimonials h1 {
+  font-family: "Satisfy", serif;
+}
 
 #angel h1 {
   margin: 0 0 10px 0;
